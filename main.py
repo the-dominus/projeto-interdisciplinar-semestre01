@@ -9,7 +9,7 @@ decimal = int (input("Digite o número em decimal: "))
 print("==============================================================")
 print("\nFunção nativa do Python para validação dos cálculos desenvolvidos pelo grupo:",bin(decimal))
 
-binario = ""
+#binario = ""
 acum = []
 
 while decimal > 0:
@@ -21,7 +21,7 @@ while decimal > 0:
 
 # Foi inserida na variável binário uma função que junta todos os valores do array (JOIN) e então inverte 
 # a ordem dos valores, um sort ao contrário. Reversed é uma função exclusiva de arrays.
-binario = binario.join(reversed(acum))
+binario = "".join(reversed(acum))
 
 print("\nO valor em binário calculado em aritmética é:", binario)
 print("\n==============================================================")
